@@ -232,19 +232,26 @@ How many lists can you see in the response body?
     }
     a. To retrieve all direct properties of the studio object
 >Ans: .studio
-    b. To find out the music’s song
+
+  b. To find out the music’s song
 > Ans: .studio.music.song
-    c. To find the rating of all items in the studio
+
+  c. To find the rating of all items in the studio
 > Ans: .studio.movie[0].rating
-    d. To retrieve information on all movies
+
+   d. To retrieve information on all movies
 > Ans: 
-    e. To find out the titles of all movies
+
+   e. To find out the titles of all movies
 > Ans: .studio.movie[0].title, .studio.movie[1].title, .studio.movie[2].title, .studio.movie[3].title
-    f. To retrieve the titles of all movies by Jack
+
+   f. To retrieve the titles of all movies by Jack
 > Ans: .studio.movie[2].director
-    g. To retrieve the category of the last movie
+
+   g. To retrieve the category of the last movie
 > Ans: .studio.movie[3].category
-    i. To retrieve all movies that have the isbn property
+
+   i. To retrieve all movies that have the isbn property
 > Ans: .studio.movie[2].isbn, .studio.movie[3].isbn
 
 ![img_19.png](Images%2Fimg_19.png)
@@ -253,11 +260,14 @@ How many lists can you see in the response body?
     Question:
     How many lists can you see in the response body?
 >Ans: One list, "data"
-    What is the response?
+
+What is the response?
 >Ans: Status 200 OK
-    What are the available property(Key) names in the response body?
+
+What are the available property(Key) names in the response body?
 > Ans: No properties in response body, 16 properties in response header
-    Make a list of all attributes and write the data types.
+
+Make a list of all attributes and write the data types.
 >Ans:
 > There are objects, that starts and ends with {}
 > There are strings, that starts and ends with ""
@@ -271,7 +281,8 @@ How many lists can you see in the response body?
     Question:
     How many data you can see in response body?
 > Ans: One data
-    What is the response status?
+
+ What is the response status?
 >Ans: Status 200 OK
 
 ![img_21.png](Images%2Fimg_21.png)
@@ -298,9 +309,10 @@ can you see "id" property in the response? if Yes, note the "id" value.
     What is the response?
 >Ans: Status 404 Not Found
 
-    How many employees are now in the employees list? http://dummy.restapiexample.com/api/v1/employees
+  How many employees are now in the employees list? http://dummy.restapiexample.com/api/v1/employees
 >Ans: 24 employees
-    Can you see the deleted employee record?
+
+  Can you see the deleted employee record?
 > Ans: employee was not deleted
 
 ![img_23.png](Images%2Fimg_23.png)
@@ -315,6 +327,7 @@ can you see "id" property in the response? if Yes, note the "id" value.
 Question:
 What is the response?
 >Ans: Status 400 Bad request
+
 What are the available property(Key) names in the response body?
 >Ans: None
 
